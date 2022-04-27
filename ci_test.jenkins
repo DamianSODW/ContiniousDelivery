@@ -11,12 +11,12 @@ pipeline { // Открываем пайплайн
     stages { // Раздел действий
         stage("First step") { // Первый Раздел
             steps { // Шаги первого раздела
-                sh 'echo hello world' // Первая команда
+                sh 'echo hello world'
             }
         }
         stage("Second step") { // Второй Раздел
             steps { // Шаги второго раздела
-                sh 'pwd' // Вторая команда
+                sh 'pwd'
             }
         }
     }
