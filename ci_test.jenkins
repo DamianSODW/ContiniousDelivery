@@ -15,7 +15,7 @@ pipeline { // Открываем пайплайн
             }
         }
         stage("Second step") { // Второй Раздел
-            steps { // Шаги второго раздела
+            steps { 
                 sh 'pwd'
             }
         }
